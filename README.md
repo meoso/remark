@@ -11,6 +11,6 @@ This repo includes the following:
 
 The files `remark-style.css` and `remark-latest.min.js` are the core components for formatting the outputted presentation html.  `markdown-to-slides` is the tool to do so.
 
-Usage: **markdown-to-slides -s** */pathto/***remark-style.css  -j** */pathto/***remark-latest.min.js inputfile.md -o outputfile.html**
+Usage: `markdown-to-slides -s /pathto/remark-style.css  -j /pathto/remark-latest.min.js inputfile.md -o outputfile.html`
 
 You may then open the outputted file in your favorite web-browser.  Probably with the command `x-www-browser ./outputfile.html`.
